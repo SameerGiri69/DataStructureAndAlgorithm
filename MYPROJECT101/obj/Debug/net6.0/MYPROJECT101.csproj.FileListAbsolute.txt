@@ -1,0 +1,14 @@
+C:\Users\HogRider\source\repos\MYPROJECT101\MYPROJECT101\bin\Debug\net6.0\MYPROJECT101.exe
+C:\Users\HogRider\source\repos\MYPROJECT101\MYPROJECT101\bin\Debug\net6.0\MYPROJECT101.deps.json
+C:\Users\HogRider\source\repos\MYPROJECT101\MYPROJECT101\bin\Debug\net6.0\MYPROJECT101.runtimeconfig.json
+C:\Users\HogRider\source\repos\MYPROJECT101\MYPROJECT101\bin\Debug\net6.0\MYPROJECT101.dll
+C:\Users\HogRider\source\repos\MYPROJECT101\MYPROJECT101\bin\Debug\net6.0\MYPROJECT101.pdb
+C:\Users\HogRider\source\repos\MYPROJECT101\MYPROJECT101\obj\Debug\net6.0\MYPROJECT101.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HogRider\source\repos\MYPROJECT101\MYPROJECT101\obj\Debug\net6.0\MYPROJECT101.AssemblyInfoInputs.cache
+C:\Users\HogRider\source\repos\MYPROJECT101\MYPROJECT101\obj\Debug\net6.0\MYPROJECT101.AssemblyInfo.cs
+C:\Users\HogRider\source\repos\MYPROJECT101\MYPROJECT101\obj\Debug\net6.0\MYPROJECT101.csproj.CoreCompileInputs.cache
+C:\Users\HogRider\source\repos\MYPROJECT101\MYPROJECT101\obj\Debug\net6.0\MYPROJECT101.dll
+C:\Users\HogRider\source\repos\MYPROJECT101\MYPROJECT101\obj\Debug\net6.0\refint\MYPROJECT101.dll
+C:\Users\HogRider\source\repos\MYPROJECT101\MYPROJECT101\obj\Debug\net6.0\MYPROJECT101.pdb
+C:\Users\HogRider\source\repos\MYPROJECT101\MYPROJECT101\obj\Debug\net6.0\MYPROJECT101.genruntimeconfig.cache
+C:\Users\HogRider\source\repos\MYPROJECT101\MYPROJECT101\obj\Debug\net6.0\ref\MYPROJECT101.dll
