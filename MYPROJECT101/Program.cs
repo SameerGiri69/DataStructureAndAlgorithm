@@ -1,5 +1,6 @@
 ﻿using MYPROJECT101.DataStructure;
 using MYPROJECT101.DataStructure.Array_Insertion;
+using MYPROJECT101.DataStructure.JaggedArrays;
 using MYPROJECT101.DataStructure.LinkedLIsts;
 using MYPROJECT101.DataStructure.Property;
 using MYPROJECT101.DataStructure.Stacks;
@@ -21,18 +22,18 @@ internal class Program
         //obj.InsertAnywhere();
         //GettersSetters obj = new GettersSetters();
         //obj.DisplayData();
-        Linked linkedlist = new Linked();
-        linkedlist.InsertFirst(40);
-        linkedlist.InsertFirst(30);
-        linkedlist.InsertFirst(20);
-        linkedlist.InsertFirst(10);
+        //Linked linkedlist = new Linked();
+        //linkedlist.InsertFirst(40);
+        //linkedlist.InsertFirst(30);
+        //linkedlist.InsertFirst(20);
+        //linkedlist.InsertFirst(10);
 
-        linkedlist.DeleteFirst();
+        //linkedlist.DeleteFirst();
 
-        linkedlist.InsertLast(60);
-        linkedlist.InsertLast(50);
+        //linkedlist.InsertLast(60);
+        //linkedlist.InsertLast(50);
 
-        linkedlist.DisplayList();
+        //linkedlist.DisplayList();
         #endregion
 
         //Stackkk obj = new Stackkk ();
@@ -41,5 +42,7 @@ internal class Program
 
         //obj.DeleteTop();
         //obj.DisplayData();
+        JArrays obj  = new JArrays();
+        obj.DisplayTroops();
     }
-}
+} 
