@@ -19,12 +19,17 @@ internal class Program
         //obj.InsertAnywhere();
         //GettersSetters obj = new GettersSetters();
         //obj.DisplayData();
-        Linked LinkedList = new Linked();
-        LinkedList.InsertFirst(10);
-        LinkedList.InsertFirst(20);
-        LinkedList.InsertFirst(30);
-        LinkedList.InsertFirst(40);
+        //Linked LinkedList = new Linked();
+        //LinkedList.InsertFirst(10);
+        //LinkedList.InsertFirst(20);
+        //LinkedList.InsertFirst(30);
+        //LinkedList.InsertFirst(40);
 
-        LinkedList.DeleteFirst();
+        //LinkedList.DeleteFirst();
+        
+        //LinkedList.InsertLast(50);
+        //LinkedList.InsertLast(60);
+
+        //LinkedList.DisplayList();
     }
 }
