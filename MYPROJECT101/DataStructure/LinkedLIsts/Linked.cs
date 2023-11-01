@@ -57,7 +57,7 @@ namespace MYPROJECT101.DataStructure.LinkedLIsts
             Node newNode = new Node();
             //assigning data to the new node
             newNode.Data = data;
-            current.Next = newNode;
+            newNode = current.Next;
         }
 
        
