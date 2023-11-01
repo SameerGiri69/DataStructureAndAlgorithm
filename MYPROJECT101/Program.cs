@@ -2,11 +2,13 @@
 using MYPROJECT101.DataStructure.Array_Insertion;
 using MYPROJECT101.DataStructure.LinkedLIsts;
 using MYPROJECT101.DataStructure.Property;
+using MYPROJECT101.DataStructure.Stacks;
 
 internal class Program
 {
     private static void Main(string[] args)
     {
+        #region
         //Lists obj = new Lists();
         //obj.Name();
         //obj.Age();
@@ -19,17 +21,25 @@ internal class Program
         //obj.InsertAnywhere();
         //GettersSetters obj = new GettersSetters();
         //obj.DisplayData();
-        //Linked LinkedList = new Linked();
-        //LinkedList.InsertFirst(10);
-        //LinkedList.InsertFirst(20);
-        //LinkedList.InsertFirst(30);
-        //LinkedList.InsertFirst(40);
+        Linked linkedlist = new Linked();
+        linkedlist.InsertFirst(40);
+        linkedlist.InsertFirst(30);
+        linkedlist.InsertFirst(20);
+        linkedlist.InsertFirst(10);
 
-        //LinkedList.DeleteFirst();
-        
-        //LinkedList.InsertLast(50);
-        //LinkedList.InsertLast(60);
+        linkedlist.DeleteFirst();
 
-        //LinkedList.DisplayList();
+        linkedlist.InsertLast(60);
+        linkedlist.InsertLast(50);
+
+        linkedlist.DisplayList();
+        #endregion
+
+        //Stackkk obj = new Stackkk ();
+        //obj.AddData("hog riderrr");
+        //obj.AddData("minnion");
+
+        //obj.DeleteTop();
+        //obj.DisplayData();
     }
 }
