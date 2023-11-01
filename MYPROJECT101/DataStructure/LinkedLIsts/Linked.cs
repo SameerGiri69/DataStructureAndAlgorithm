@@ -31,11 +31,24 @@ namespace MYPROJECT101.DataStructure.LinkedLIsts
            
             return temp;
         }
-        
+
+
+        public void InsertLast(int data)
+        {
+            Node current = First;
+            while (current.Next != null)
+            {
+                current = current.Next;
+            }
+            Node newnode = new Node();
+            newnode.Data = data;
+            current.Next = newnode;
+        }
+
         public void DisplayList()
         {
             Console.WriteLine("Iterating through the list");
-            Node current  = First;
+            Node current = First;
             while (current != null)
             {
                 //why does it have to be current.displaynode?
@@ -43,23 +56,9 @@ namespace MYPROJECT101.DataStructure.LinkedLIsts
                 //current.next inside a while loop means you are iterating
                 current = current.Next;
             }
-        }
-        public void InsertLast(int data)
-        {
-            Node current = First;
-            while (current != null)
-            {
-                //assigns current the reference of next node which is then checked 
-                //in while loop
-                current  = current.Next;
-            }
-            //creating new node
-            Node newNode = new Node();
-            //assigning data to the new node
-            newNode.Data = data;
-            newNode = current.Next;
+            
         }
 
-       
+
     }
 }
