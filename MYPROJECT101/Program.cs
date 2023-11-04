@@ -4,6 +4,7 @@ using MYPROJECT101.DataStructure.JaggedArrays;
 using MYPROJECT101.DataStructure.LinkedLIsts;
 using MYPROJECT101.DataStructure.Property;
 using MYPROJECT101.DataStructure.Stacks;
+using MYPROJECT101.Lambda_expression;
 
 internal class Program
 {
@@ -42,7 +43,10 @@ internal class Program
 
         //obj.DeleteTop();
         //obj.DisplayData();
-        JArrays obj  = new JArrays();
-        obj.DisplayTroops();
+        //JArrays obj  = new JArrays();
+        //obj.DisplayTroops();
+        Lambda obj = new Lambda();
+        Lambda.AddPeople(12, "SanoBhai");
+        Lambda.DisplayPeople();
     }
 } 
